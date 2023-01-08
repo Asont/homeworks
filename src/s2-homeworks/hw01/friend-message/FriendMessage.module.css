@@ -1,5 +1,9 @@
 .friendMessage {
-
+    align-items: flex-end;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 25px;
 }
 
 .friendImageAndText {
@@ -7,11 +11,15 @@
 }
 
 .friendImageAndText img {
-
+    width:50px;
+    height: 50px;
 }
 
 .friendText {
-
+    background-color: #0066cc;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .friendText:after {
@@ -19,7 +27,7 @@
 }
 
 .friendName {
-
+    font: 18px bold Arial;
 }
 
 .friendMessageText {
