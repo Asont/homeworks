@@ -1,25 +1,48 @@
 .sidebar {
+    position: fixed;
+    visibility: hidden;
+    background-color: #FFFFFF;
+    height: 100%;
+    padding: 30px;
 }
 
 .sidebar.open {
+    visibility: visible;
 }
 
 .background {
+    width:100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.4;
+    background: lightgrey;
 }
 
 .nav {
+    display: flex;
+    flex-direction: column;
 }
 
 .nav a {
+    color: #0d0c0c;
+    text-decoration: none;
+    font: 22px  Montserrat;
+    margin: 30px 0;
 }
 
 .nav a:hover {
+    color:#58ACFF;
 }
 
 .nav a.active {
+    color: #0059B2;
 }
 .close {
+    background-color: white;
+    border: none;
+    margin-left: 70px;
 }
 
 .close img {
+    cursor:pointer;
 }
