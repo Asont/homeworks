@@ -32,7 +32,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         to={PATH.PRE_JUNIOR}
                         onClick={handleClose}
                         className={({ isActive }) =>
-                            isActive ? s.active : undefined
+                            isActive ? s.active : ''
                         }
                     >
                         Pre-junior
@@ -41,10 +41,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         id={'hw5-junior-link'}
                         to={PATH.JUNIOR}
                         onClick={handleClose}
-                        className={({ isActive }) =>
-                            isActive ? s.active : undefined
-                        }
-                    >
+                        className={({ isActive }) => isActive ? s.active : ''}>
                         Junior
                     </NavLink>
                     <NavLink
@@ -52,7 +49,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         to={PATH.JUNIOR_PLUS}
                         onClick={handleClose}
                         className={({ isActive }) =>
-                            isActive ? s.active : undefined
+                            isActive ? s.active : ''
                         }
                     >
                         Junior Plus
