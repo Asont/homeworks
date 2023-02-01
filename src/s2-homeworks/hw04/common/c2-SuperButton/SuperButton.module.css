@@ -8,6 +8,7 @@
     color: #fff;
     font-family: 'Montserrat', serif;
     margin-right: 24px;
+    cursor: pointer;
 }
 
 .disabled {
