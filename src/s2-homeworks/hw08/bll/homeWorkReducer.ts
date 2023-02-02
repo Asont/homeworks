@@ -1,4 +1,4 @@
-import {UserType} from '../HW8'
+import { UserType} from '../HW8'
 
 type ActionType =
     | { type: 'sort'; payload: 'up' | 'down' }
@@ -7,10 +7,12 @@ type ActionType =
 export const homeWorkReducer = (state: UserType[], action: ActionType): UserType[] => { // need to fix any
     switch (action.type) {
         case 'sort': {
-            return  [...state.sort((el1, el2)=>action.payload==='up'?(el1.name>el2.name?1:-1):(el1.name>el2.name?-1:1))]
+            let newArray = [...state]
+            return  newArray.sort((el1, el2)=>action.payload==='up'?(el1.name>el2.name?1:-1):(el1.name>el2.name?-1:1))
         }
         case 'check': {
-            return state.filter((el)=>el.age>18)
+            let newState = state
+            return [...newState.filter((el)=>el.age>18)]
         }
         default:
             return state
