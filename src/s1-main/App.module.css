@@ -8,11 +8,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
 .hwTitle {
-   margin: 50px;
-    font:32px bold;
+    margin: 50px;
+    font: 32px bold;
     border-bottom: lightgray;
 }

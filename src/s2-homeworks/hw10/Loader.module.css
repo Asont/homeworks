@@ -1,3 +1,7 @@
 .loader {
-    /*свг и/или анимация*/
+    position: relative;
+}
+
+.loader svg {
+    position: absolute;
 }
