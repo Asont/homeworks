@@ -2,6 +2,9 @@
 }
 
 .responseContainer {
+display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .imageContainer {
@@ -11,12 +14,28 @@
 }
 
 .textContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
 }
 
 .code {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
 }
 
 .text {
+    white-space:pre;
+    margin-top: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
 }
 .info {
 }

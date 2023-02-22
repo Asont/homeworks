@@ -1,14 +1,15 @@
 .button {
-    width: 132px;
+    width: 150px;
     height: 30px;
     border-radius: 3px;
     padding: 5px 24px;
     background: #004D99;
     border: none;
     color: #fff;
-    font-family: 'Montserrat', serif;
+    font: 12px 'Montserrat', serif;
     margin-right: 24px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .disabled {
