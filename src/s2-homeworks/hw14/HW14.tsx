@@ -40,7 +40,6 @@ const HW14 = () => {
                 }
             })
     }
-
     const onChangeText = (value: string) => {
         setFind(value)
         setSearchParams(find)
