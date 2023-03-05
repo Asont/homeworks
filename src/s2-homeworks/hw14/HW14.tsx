@@ -12,7 +12,6 @@ import {useSearchParams} from 'react-router-dom'
 * 4 - сделать стили в соответствии с дизайном
 * 5 - добавить HW14 в HW5/pages/JuniorPlus
 * */
-
 const getTechs = (find: string) => {
     return axios
         .get<{ techs: string[] }>(
